@@ -1,0 +1,53 @@
+[
+    {
+      "key": "Dimensión Mecanismos de participación, atención ciudadana y rendición de cuentas",
+      "color": "#d64477",
+      "values": [
+        { 
+          "label" : "4.1." ,
+          "value" : 86,
+          "title" : "Existencia de una oficina de información dentro del Congreso o Asamblea Nacional"
+        } , 
+        { 
+          "label" : "4.2." , 
+          "value" : 50,
+          "title" : "Existencia de un mecanismo por el cual se resuelven conflictos al acceso a la información pública"
+        } , 
+        { 
+          "label" : "4.3." , 
+          "value" : 73,
+          "title" : "Canal de televisión del Congreso o de la Asamblea Nacional"
+        } , 
+        { 
+          "label" : "4.4." , 
+          "value" : 81,
+          "title" : "Publicación de información en páginas web"
+        } , 
+        { 
+          "label" : "4.5." ,
+          "value" : 38,
+          "title" : "Canales de información y comunicación del Congreso o Asamblea Nacional"
+        } , 
+        { 
+          "label" : "4.6." , 
+          "value" : 33,
+          "title" : "Publicación de información sobre actividades de las y los legisladores"
+        } , 
+        { 
+          "label" : "4.7." , 
+          "value" : 54,
+          "title" : "Publicación de información de las y los legisladores"
+        } , 
+        { 
+          "label" : "4.8." , 
+          "value" : 67,
+          "title" : "Ingreso de medios de comunicación al recinto del Congreso o Asamblea"
+        }, 
+        { 
+          "label" : "4.9." , 
+          "value" : 100,
+          "title" : "Participación ciudadana"
+        }
+      ]
+    }
+]

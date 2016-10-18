@@ -1,0 +1,58 @@
+[
+    {
+      "key": "Dimensión Presupuesto y Gestión Administrativa",
+      "color": "#d65577",
+      "values": [
+        { 
+          "label" : "3.1." ,
+          "value" : 66,
+          "title" : "Publicación del presupuesto del Congreso o Asamblea Nacional"
+        } , 
+        { 
+          "label" : "3.2." , 
+          "value" : 78,
+          "title" : "Informes sobre la ejecución del presupuesto del Congreso o Asamblea Nacional"
+        } , 
+        { 
+          "label" : "3.3." , 
+          "value" : 0,
+          "title" : "Publicación de la ejecución del gasto de las fracciones parlamentarias"
+        } , 
+        { 
+          "label" : "3.4." , 
+          "value" : 57,
+          "title" : "Auditorías internas y externas practicadas en el Congreso o Asamblea Nacional"
+        } , 
+        { 
+          "label" : "3.5." ,
+          "value" : 50,
+          "title" : "Publicación de los salarios y otras prestaciones de los congresistas o asambleístas"
+        } , 
+        { 
+          "label" : "3.6." , 
+          "value" : 39,
+          "title" : "Estructura administrativa del Congreso o Asamblea Nacional"
+        } , 
+        { 
+          "label" : "3.7." , 
+          "value" : 25,
+          "title" : "Asesores de los congresistas o asambleístas"
+        } , 
+        { 
+          "label" : "3.8." , 
+          "value" : 50,
+          "title" : "Publicación de los estados financieros por viajes de los legisladores por motivo de trabajo (dentro y fuera del país)"
+        }, 
+        { 
+          "label" : "3.9." , 
+          "value" : 55,
+          "title" : "Publicación de contratación pública"
+        }, 
+        { 
+          "label" : "3.10." , 
+          "value" : 29,
+          "title" : "Publicación de llamados a concurso del personal del Congreso o Asamblea Nacional"
+        }
+      ]
+    }
+]

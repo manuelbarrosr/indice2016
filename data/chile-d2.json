@@ -1,0 +1,73 @@
+[
+    {
+      "key": "Dimensión Labor del Congreso o Asamblea",
+      "color": "#d66677",
+      "values": [
+        { 
+          "label" : "2.1." ,
+          "value" : 68,
+          "title" : "Documento con los temas a tratar en la sesión de los plenos"
+        } , 
+        { 
+          "label" : "2.2." , 
+          "value" : 63,
+          "title" : "Documento que registre la memoria legislativa en los plenos"
+        } , 
+        { 
+          "label" : "2.3." , 
+          "value" : 72,
+          "title" : "Asistencia a las sesiones de los plenos"
+        } , 
+        { 
+          "label" : "2.4." , 
+          "value" : 77,
+          "title" : "Votaciones nominales de los plenos"
+        } , 
+        { 
+          "label" : "2.5." ,
+          "value" : 0,
+          "title" : "Versiones estenográficas de las sesiones de los plenos"
+        } , 
+        { 
+          "label" : "2.6." , 
+          "value" : 76,
+          "title" : "Conformación de las comisiones y su agenda"
+        } , 
+        { 
+          "label" : "2.7." , 
+          "value" : 80,
+          "title" : "Asistencia a las sesiones de comisiones"
+        } , 
+        { 
+          "label" : "2.8." , 
+          "value" : 80,
+          "title" : "Votaciones de las sesiones de comisiones"
+        }, 
+        { 
+          "label" : "2.9." , 
+          "value" : 0,
+          "title" : "Versiones estenográficas de las sesiones de las comisiones"
+        }, 
+        { 
+          "label" : "2.10." , 
+          "value" : 0,
+          "title" : "Documento que registre la memoria legislativa en las comisiones"
+        }, 
+        { 
+          "label" : "2.11." , 
+          "value" : 50,
+          "title" : "Asesorías externas"
+        }, 
+        { 
+          "label" : "2.12." , 
+          "value" : 68,
+          "title" : "Publicación de información de viajes"
+        }, 
+        { 
+          "label" : "2.13." , 
+          "value" : 0,
+          "title" : "Registro de obsequios a los congresistas"
+        }
+      ]
+    }
+]

@@ -1,0 +1,88 @@
+[
+    {
+      "key": "Dimensión Normatividad",
+      "color": "#d67777",
+      "values": [
+        { 
+          "label" : "1.1." ,
+          "value" : 50,
+          "title" : "Exhaustividad y Publicidad del marco normativo"
+        } , 
+        { 
+          "label" : "1.2." , 
+          "value" : 38,
+          "title" : "Existencia regulación transparencia y AI en el Congreso"
+        } , 
+        { 
+          "label" : "1.3." , 
+          "value" : 100,
+          "title" : "Reglamentación del cabildeo o Lobbying"
+        } , 
+        { 
+          "label" : "1.4." , 
+          "value" : 33,
+          "title" : "Registro de intereses"
+        } , 
+        { 
+          "label" : "1.5." ,
+          "value" : 100,
+          "title" : "Publicación de los temas a tratar en la sesión del pleno"
+        } , 
+        { 
+          "label" : "1.6." , 
+          "value" : 53,
+          "title" : "Obligación de registrar actividad plenaria difusión"
+        } , 
+        { 
+          "label" : "1.7." , 
+          "value" : 42,
+          "title" : "Publicación de los temas a tratar en las sesiones de comisiones"
+        } , 
+        { 
+          "label" : "1.8." , 
+          "value" : 53,
+          "title" : "Registro de actividad en comisiones"
+        }, 
+        { 
+          "label" : "1.9." , 
+          "value" : 104,
+          "title" : "Publicidad de los gastos y fiscalización del Congreso"
+        }, 
+        { 
+          "label" : "1.10." , 
+          "value" : 0,
+          "title" : "Oficina de vinculación y atención ciudadana en el Congreso o Asamblea"
+        }, 
+        { 
+          "label" : "1.11." , 
+          "value" : 0,
+          "title" : "Oficinas sub-nacionales de vinculación y atención ciudadana"
+        }, 
+        { 
+          "label" : "1.12." , 
+          "value" : 0,
+          "title" : "Canal de Televisión 1.13. Informes de gestión de las y los legisladores"
+        }, 
+        { 
+          "label" : "1.13." , 
+          "value" : 50,
+          "title" : "Informes de gestión de las y los legisladores"
+        }, 
+        { 
+          "label" : "1.14." , 
+          "value" : 75,
+          "title" : "Información personal de las y los legisladores"
+        }, 
+        { 
+          "label" : "1.15." , 
+          "value" : 100,
+          "title" : "Existencia de una regulación e instancia para la ética parlamentaria"
+        }, 
+        { 
+          "label" : "1.16." , 
+          "value" : 0,
+          "title" : "Normatividad sobre participación"
+        }
+      ]
+    }
+]
