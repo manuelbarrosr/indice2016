@@ -13,11 +13,15 @@ title: Avance
   #chartavance {
     min-width: 100px;
     min-height: 100px;
-    margin-bottom: 20px;
+    margin-bottom: 100px;
   }
 
-  #chartavance svg, #chartavance-ar svg {
+  #chartavance svg {
     height: 600px;
+  }
+
+  #chartavance-ar svg, #chartavance-bo svg, #chartavance-cl svg, #chartavance-co svg, #chartavance-ec svg, #chartavance-gu svg, #chartavance-me svg, #chartavance-pe svg, #chartavance-uy svg, #chartavance-ve svg {
+    height: 300px;
   }
 
   #chartavance svg:not(:root) {
@@ -29,38 +33,65 @@ title: Avance
 
 <!-- GRAFICO GENERAL-->
 
- <div class="container">
+ <div class="container" id="top">
   <a id="graph-section"></a>
   <div class="legend">
     Has click para activar y desactivar años
   </div>
   <div id="chartavance" class='with-3d-shadow with-transitions'><svg></svg></div>
-</div> 
 
-<!-- TABS -->
+<!-- Grafico por pais -->
 
-<div>
+<span id="top-link" data-spy="affix">
+    <a href="#top" class="btn btn-default"><i class="fa fa-arrow-up" aria-hidden="true"></i></a>
+</span>
+
+<style>
+    .navbar-fixed-top + .content-container {
+        margin-top: 70px;
+    }
+    .content-container {
+        margin: 0 125px;
+    }
+    #top-link.affix {
+        position: fixed;
+        bottom: 20px;
+        right: 10px;
+    }
+</style>
+
+<h2>Avance por área en cada país</h2>
 
   <!-- Nav tabs -->
-  <ul class="nav nav-tabs nav-justified" role="tablist">
-    <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Argentina</a></li>
-    <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Bolivia</a></li>
-    <li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">Chile</a></li>
-    <li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">Colombia</a></li>
-    <li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">Ecuador</a></li>
-    <li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">Guatemala</a></li>
-    <li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">México</a></li>
-  </ul>
-
-  <!-- Tab panes -->
-  <div class="tab-content">
-    <div role="tabpanel" class="tab-pane fade in active" id="home"><div id="chartavance-ar" class='with-3d-shadow with-transitions'><svg></svg></div></div>
-    <div role="tabpanel" class="tab-pane fade" id="profile">...</div>
-    <div role="tabpanel" class="tab-pane fade" id="messages">...</div>
-    <div role="tabpanel" class="tab-pane fade" id="settings">...</div>
+  <div class="clearfix">
+    <ul class="nav nav-tabs nav-justified inner-nav">
+      <li ><a href="#avances-ar" class="btn">Argentina</a></li>
+      <li ><a href="#avances-bo" class="btn">Bolivia</a></li>
+      <li ><a href="#avances-cl" class="btn">Chile</a></li>
+      <li ><a href="#avances-co" class="btn">Colombia</a></li>
+      <li ><a href="#avances-ec" class="btn">Ecuador</a></li>
+      <li ><a href="#avances-gu" class="btn">Guatemala</a></li>
+      <li ><a href="#avances-me" class="btn">México</a></li>
+      <li ><a href="#avances-pe" class="btn">Perú</a></li>
+      <li ><a href="#avances-uy" class="btn">Uruguay</a></li>
+      <li ><a href="#avances-ve" class="btn">Venezuela</a></li>
+    </ul>
   </div>
 
-</div>
+
+  <!-- Tab panes -->
+    <div class="avances" id="avances-ar"><h3>Argentina</h3><div id="chartavance-ar" class='with-3d-shadow with-transitions'><svg></svg></div></div>
+    <div class="avances" id="avances-bo"><h3>Bolivia</h3><div id="chartavance-bo" class='with-3d-shadow with-transitions'><svg></svg></div></div>
+    <div class="avances" id="avances-cl"><h3>Chile</h3><div id="chartavance-cl" class='with-3d-shadow with-transitions'><svg></svg></div></div>
+    <div class="avances" id="avances-co"><h3>Colombia</h3><div id="chartavance-co" class='with-3d-shadow with-transitions'><svg></svg></div></div>
+    <div class="avances" id="avances-ec"><h3>Ecuador</h3><div id="chartavance-ec" class='with-3d-shadow with-transitions'><svg></svg></div></div>
+    <div class="avances" id="avances-gu"><h3>Guatemala</h3><div id="chartavance-gu" class='with-3d-shadow with-transitions'><svg></svg></div></div>
+    <div class="avances" id="avances-me"><h3>México</h3><div id="chartavance-me" class='with-3d-shadow with-transitions'><svg></svg></div></div>
+    <div class="avances" id="avances-pe"><h3>Perú</h3><div id="chartavance-pe" class='with-3d-shadow with-transitions'><svg></svg></div></div>
+    <div class="avances" id="avances-uy"><h3>Uruguay</h3><div id="chartavance-uy" class='with-3d-shadow with-transitions'><svg></svg></div></div>
+    <div class="avances" id="avances-ve"><h3>Venezuela</h3><div id="chartavance-ve" class='with-3d-shadow with-transitions'><svg></svg></div></div>
+
+</div> 
 
 <!-- FIN GRAFICO -->
 
@@ -69,3 +100,12 @@ title: Avance
 <script type="text/javascript" src="{{ site.baseurl }}/js/tooltip.js"></script>
 <script type="text/javascript" src="{{ site.baseurl }}/js/data-graph-avance.js"></script>
 <script type="text/javascript" src="{{ site.baseurl }}/js/data-graph-avance-ar.js"></script>
+<script type="text/javascript" src="{{ site.baseurl }}/js/data-graph-avance-bo.js"></script>
+<script type="text/javascript" src="{{ site.baseurl }}/js/data-graph-avance-cl.js"></script>
+<script type="text/javascript" src="{{ site.baseurl }}/js/data-graph-avance-co.js"></script>
+<script type="text/javascript" src="{{ site.baseurl }}/js/data-graph-avance-ec.js"></script>
+<script type="text/javascript" src="{{ site.baseurl }}/js/data-graph-avance-gu.js"></script>
+<script type="text/javascript" src="{{ site.baseurl }}/js/data-graph-avance-me.js"></script>
+<script type="text/javascript" src="{{ site.baseurl }}/js/data-graph-avance-pe.js"></script>
+<script type="text/javascript" src="{{ site.baseurl }}/js/data-graph-avance-uy.js"></script>
+<script type="text/javascript" src="{{ site.baseurl }}/js/data-graph-avance-ve.js"></script>

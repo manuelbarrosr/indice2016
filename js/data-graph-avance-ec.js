@@ -1,4 +1,4 @@
-long_short_data_ar = [ 
+long_short_data_ec = [ 
   {
     key: '2014',
     color: '#00b4f2',
@@ -73,8 +73,8 @@ nv.addGraph(function() {
 
   chart.forceY([0,1]);
 
-  d3.select('#chartavance-ar svg')
-      .datum(long_short_data_ar)
+  d3.select('#chartavance-ec svg')
+      .datum(long_short_data_ec)
       .call(chart);
 
   nv.utils.windowResize(chart.update);
